@@ -1,0 +1,9 @@
+# To ignore
+*.o
+*.lib
+*.i
+*.a
+*.so
+*.so.*
+*.out
+test_powerlib
