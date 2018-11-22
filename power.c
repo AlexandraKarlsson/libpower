@@ -1,7 +1,8 @@
 #include "power.h"
 
 float calc_power_r(float volt, float resistance){
-
+    
+    // P = U^2 / R
 
     if(resistance <= 0 ) {
         return -1;

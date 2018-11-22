@@ -12,6 +12,15 @@
 // power in watt
 float calc_power_r(float volt, float resistance);
 
+// Calculate power using P = U * I
+// Arguments: 
+// volt must be > 0
+// current must be > 0
+// Return value: 
+// -1 if current is <= 0
+// -2 if voltage is <= 0
+// power in watt
+
 float calc_power_i(float volt, float current);
 
 #endif

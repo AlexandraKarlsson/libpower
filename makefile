@@ -4,7 +4,7 @@ LIB_DESTINATION = /usr/local/lib
 all: test_powerlib
 
 # -Wl, -soname, -test_powerlib.so.1 ?
-test_powerlib: libpower.so
+test_powerlib: libpower.so test.c
 	gcc test.c -L. -lpower -Wl,-rpath,. -o test_powerlib
 
 libpower.so: power.o
